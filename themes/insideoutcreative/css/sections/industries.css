@@ -1,0 +1,13 @@
+.img-industries {
+    height: 250px;
+    object-fit: cover;
+    transition: all .25s ease-in-out;
+}
+.col-industries:hover .img-industries {
+    transform: scale(1.05);
+}
+.content {
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+}

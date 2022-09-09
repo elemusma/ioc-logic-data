@@ -1,0 +1,79 @@
+@media screen and (min-width:768px){
+    .services-row .services-col:first-child {
+        clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+        -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+        -ms-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+    }
+    .services-row .services-col:nth-child(2) {
+        clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
+        -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
+        -ms-clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .services-row .services-col.even-amount:last-child {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+        -ms-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    }
+    .services-row .services-col.odd-amount:nth-last-child(2) {
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+        -ms-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+    }
+    /* for last object if it's an odd number */
+    .services-row .services-col.odd-amount:last-child {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        clip-path: polygon(0 100%, 0 0, 100% 0, 100% 100%, 50% 80%);
+        -webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 100% 100%, 50% 80%);
+        -ms-clip-path: polygon(0 100%, 0 0, 100% 0, 100% 100%, 50% 80%);
+    }
+    }
+    .services-col {
+        overflow: hidden;
+    }
+    .hover-fade {
+        transition:all .25s ease-in-out;
+		background: rgba(0,33,87,.75);
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 1;
+    }
+/*     .services-row .services-col:hover .hover-fade {
+        background: rgba(0,33,87,.5);
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+    } */
+    .services-row .services-col .inner-content-text {
+        top: 50%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        transform: translate(0, -50%);
+        z-index: 1;
+    }
+    .services-row .services-col .services-img {
+        height: 225px;
+        object-fit: cover;
+        transition: all .25s ease-in-out;
+    }
+    .services-col:hover .services-img {
+        transform: scale(1.1);
+    }
+    .services-row .services-col .view-services {
+        border: 2px solid white;
+        border-radius: 0;
+        background: transparent;
+    }
+    .services-row .services-col .heading {
+        transition:all .25s ease-in-out;
+    }
+    .services-row .services-col:hover .heading {
+        transform:scale(1.1);
+    }

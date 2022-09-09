@@ -1,0 +1,62 @@
+2022-04-26 16:09:52
+<b>ewww_image_optimizer_init()</b>
+checking active plugins
+<b>EIO_Base::content_url()</b>
+upload_url: https://logicdata.com/wp-content/uploads/
+<b>EIO_Base::__construct()</b>
+plugin (resource) content_url: https://logicdata.com/wp-content/ewww/
+plugin (resource) content_dir: /home/755016.cloudwaysapps.com/pxfrqewsww/public_html/wp-content/ewww/
+home url: https://logicdata.com/
+relative home url: //logicdata.com/
+home domain: logicdata.com
+site/upload url: https://logicdata.com
+site/upload domain: logicdata.com
+<b>EIO_Lazy_Load::__construct()</b>
+request uri is /wp-admin/admin-ajax.php?action=wp_ewwwio_test_optimize&nonce=d56c900657
+is_admin
+<b>EIO_Base::content_url()</b>
+upload_url: https://logicdata.com/wp-content/uploads/
+<b>EIO_Base::__construct()</b>
+plugin (resource) content_url: https://logicdata.com/wp-content/ewww/
+plugin (resource) content_dir: /home/755016.cloudwaysapps.com/pxfrqewsww/public_html/wp-content/ewww/
+home url: https://logicdata.com/
+relative home url: //logicdata.com/
+home domain: logicdata.com
+site/upload url: https://logicdata.com
+site/upload domain: logicdata.com
+<b>EIO_JS_Webp::__construct()</b>
+request uri is /wp-admin/admin-ajax.php?action=wp_ewwwio_test_optimize&nonce=d56c900657
+is_admin
+<b>EIO_Base::content_url()</b>
+upload_url: https://logicdata.com/wp-content/uploads/
+<b>EIO_Base::__construct()</b>
+plugin (resource) content_url: https://logicdata.com/wp-content/ewww/
+plugin (resource) content_dir: /home/755016.cloudwaysapps.com/pxfrqewsww/public_html/wp-content/ewww/
+home url: https://logicdata.com/
+relative home url: //logicdata.com/
+home domain: logicdata.com
+site/upload url: https://logicdata.com
+site/upload domain: logicdata.com
+<b>EIO_Picture_Webp::__construct()</b>
+request uri is /wp-admin/admin-ajax.php?action=wp_ewwwio_test_optimize&nonce=d56c900657
+is_admin
+<b>ewww_image_optimizer_admin_init()</b>
+<b>EIO_Base::content_url()</b>
+upload_url: https://logicdata.com/wp-content/uploads/
+<b>EIO_Base::__construct()</b>
+plugin (resource) content_url: https://logicdata.com/wp-content/ewww/
+plugin (resource) content_dir: /home/755016.cloudwaysapps.com/pxfrqewsww/public_html/wp-content/ewww/
+home url: https://logicdata.com/
+relative home url: //logicdata.com/
+home domain: logicdata.com
+site/upload url: https://logicdata.com
+site/upload domain: logicdata.com
+<b>ewww_image_optimizer_cloud_init()</b>
+<b>ewww_image_optimizer_upgrade()</b>
+<b>ewww_image_optimizer_exec_init()</b>
+<b>ewww_image_optimizer_cron_setup()</b>
+<b>ewww_image_optimizer_ajax_compat_check()</b>
+doing wp_ewwwio_test_optimize
+<b>EWWWIO_Tracking::schedule_send()</b>
+checkin already scheduled: 1650989382
+<b>EWWWIO_Test_Optimize_Handler::handle()</b>

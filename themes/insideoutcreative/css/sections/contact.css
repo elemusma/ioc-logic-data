@@ -1,0 +1,16 @@
+input.wpcf7-form-control.wpcf7-submit {
+    background: #ef8e25;
+    color: white;
+    border: none;
+    padding: 10px;
+    max-width: 200px;
+    border-radius: 25px;
+    cursor:pointer;
+}
+input, textarea {
+    width: 100%;
+    margin: 0 0px 10px;
+}
+label {
+    margin: 0;
+}

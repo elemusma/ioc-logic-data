@@ -1,0 +1,55 @@
+/* start of intro */
+.col-cta,.col-cta .btn{
+    transition:all .25s ease-in-out;
+}
+.col-cta:hover{
+    background:white;
+}
+.col-cta:hover *{
+    color:#212529;
+}
+.col-cta:hover .btn{
+    background:#212529!important;
+}
+.col-cta:hover .btn{
+    color:white;
+}
+/* end of intro */
+/* start of page links */
+.page-links a:hover .bg-gray2 {
+    background: #859eb6;
+    color: white;
+    text-decoration: none !important;
+}
+.page-links a:hover {
+    text-decoration: none !important;
+}
+.page-links a {
+    transition: all .25s ease-in-out;
+}
+/* end of page links */
+/* soar to new heights */
+.white-overlay {
+    width: 100%;
+    height: 150px;
+    background: rgba(255,255,255,.5);
+}
+.white-overlay.bottom {
+    bottom: 0;
+}
+/* testimonials */
+img.img-testimonial {
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+}
+.img-quotes{
+    left: -20px;
+    top: 20px;
+}
+@media screen and (max-width:991px){
+    .img-quotes {
+        left: 10px;
+        top: -5px;
+    }
+}
