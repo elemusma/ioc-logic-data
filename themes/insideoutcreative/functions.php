@@ -56,7 +56,7 @@ add_action('after_setup_theme', 'logic_data_menus');
 if( function_exists('acf_add_options_page') ) {
 	acf_add_options_page();
 }
-add_filter('show_admin_bar', '__return_false');
+// add_filter('show_admin_bar', '__return_false');
 
 /* Describe what the code snippet does so you can remember later on */
 add_action('wp_head', 'bing_yahoo_search_engine');
