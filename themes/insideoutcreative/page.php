@@ -107,6 +107,8 @@ $imageOrContent = get_sub_field('image_or_content');
     echo '</div>';
     echo '</div>';
 // } else {
+
+    if(get_sub_field('content_other')):
     echo '<div class="col-md-6 p-0">';
     echo '<div class="">';
     echo '<div class="inner-content bg-white m-5 p-5">';
@@ -114,6 +116,7 @@ $imageOrContent = get_sub_field('image_or_content');
     echo '</div>';
     echo '</div>';
     echo '</div>';
+    endif;
 // }
 
 echo '</div>';

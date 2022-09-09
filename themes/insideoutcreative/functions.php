@@ -65,3 +65,27 @@ function bing_yahoo_search_engine(){
 <meta name="msvalidate.01" content="6AB55A55D6098F76118CF966DEE7D874" />
 <?php
 };
+
+function btn_shortcode( $atts, $content = null ) {
+
+$a = shortcode_atts( array(
+
+'class' => '',
+
+'href' => '#',
+
+'style' => '',
+
+'target' => ''
+
+), $atts );
+
+// return '<a class="btn-accent-primary" href="' . esc_attr($a['href']) . '" target="' . esc_attr($a['target']) . '">' . $content . '</a>';
+
+return '<a class="' . esc_attr($a['class']) . '" href="' . esc_attr($a['href']) . '" style="' . esc_attr($a['style']) . '" target="' . esc_attr($a['target']) . '">' . $content . '</a>';
+
+// [button href="#" class="btn btn-lg btn-default" style="font-weight:bold; margin-top:50px; background-color: #999″]Learn More[/button]
+
+}
+
+add_shortcode( 'button', 'btn_shortcode' );
