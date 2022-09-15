@@ -5,10 +5,23 @@
 <div class="container">
 <div class="row align-items-center">
 <div class="col-md-6">
-<h5 class="gray-text-1 proxima"><?php the_field('intro_preheading'); ?></h5>
-<h3 class="h4 mb-3 gray-text-1"><?php the_field('intro_heading_1'); ?></h3>
-<h3 class="h4 mb-1 gray-text-1"><?php the_field('intro_heading_2'); ?></h3>
-<p class="gray-text-1" style="line-height:1;"><small><?php the_field('intro_content',false, false); ?></small></p>
+	
+<?php
+if(get_field('intro_preheading')):
+echo '<h5 class="gray-text-1 proxima">' . get_field('intro_preheading') . '</h5>';
+endif;
+if(get_field('intro_heading_1')):
+echo '<h3 class="h4 mb-3 gray-text-1"' . get_field('intro_heading_1') . '</h3>';
+endif;
+if(get_field('intro_heading_2')):
+echo '<h3 class="h4 mb-1 gray-text-1"' . get_field('intro_heading_2') . '</h3>';
+endif;
+?>
+<!-- <p class="gray-text-1" style="line-height:1;"> -->
+<!-- 	<small> -->
+		<?php the_field('intro_content'); ?>
+<!-- 	</small> -->
+<!-- 	</p> -->
 </div>
 <div class="col-md-6">
 <?php $introImage = get_field('intro_image'); echo wp_get_attachment_image($introImage['id'],'full','',['class'=>'w-100 h-auto']); ?>
